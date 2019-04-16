@@ -33,9 +33,7 @@ int main(int argc, char* argv[])
 
 
 void assignCourseGrade(int numCourses, string courseLetterGrades[], double* courseGrades ){
-    
-    int *p=0;
-    cout<<*p<<endl;
+   
     for(int i =0 ; i < numCourses; i++){
       if(courseLetterGrades[i]=="A" || courseLetterGrades[i]=="A+"){
         courseGrades[i] = 4.0;
