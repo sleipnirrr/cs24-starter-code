@@ -26,12 +26,12 @@ int main(int argc, char** argv){
     exit(1);
   }
   
-  ifstream movieFile (argv[1]);
+  ifstream movieFile (argv[2]);
   string line, movieName;
   double movieRating;
 
   if (movieFile.fail()){
-    cerr << "Could not open file " << argv[1];
+    cerr << "Could not open file " << argv[2];
     exit(1);
   }
 
